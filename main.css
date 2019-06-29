@@ -1,0 +1,347 @@
+.side-nav {
+    background-image: url("C:/Users/KapilPandey/Downloads/Website-Design-Background.png");
+    height: 100vh;
+    padding: 5%;
+}
+
+.side-nav>img {
+    border-radius: 50%;
+    height: 30%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.welcome-section>p {
+    font-family: 'Source Code Pro';
+    text-align: center;
+    color: #00FF7F;
+}
+
+h1 {
+    font-family: 'Orbitron';
+    text-align: center;
+    color: #00FF7F;
+}
+
+.welcome-section>a {
+    display: block;
+    font-family: 'Orbitron';
+    text-align: center;
+    color: #00FF7F;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.image-container>img {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+#about {
+    background-image: url("https://thewallpaper.co//wp-content/uploads/2016/10preview/grey-plain-images-hd-hd-wallpapers-cool-images-4k-high-definition-amazing-background-wallpapers-colourful-display-1920x1200.jpg");
+    padding: 1%;
+}
+
+#about-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    left: 20px;
+    border: 5px solid black;
+}
+
+#about-info {
+    position: relative;
+    padding: 50px;
+    bottom: 50px;
+    z-index: 0;
+    border: 5px solid black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.parent {
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX32085626.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/0f/e5/22/0fe52238bd418b995a39d91decaec0b2.jpg"); */
+}
+
+.skillset {
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+.skill {
+    margin-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+    color: #00ff7f;
+    margin-left: 10%;
+}
+
+.skill>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00ff7f;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #f4392f;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+
+.skill1 {
+    width: 80%;
+}
+
+.skill-bar span {
+    position: relative;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill1 .skill-count1 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 2 */
+
+.skill2 {
+    width: 30%;
+}
+
+.skill2 .skill-count2 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 3 */
+
+.skill3 {
+    width: 70%;
+}
+
+.skill3 .skill-count3 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 4 */
+
+.skill4 {
+    width: 50%
+}
+
+.skill4 .skill-count4 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 5 */
+
+.skill5 {
+    width: 60%;
+}
+
+.skill5 .skill-count5 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 6 */
+
+.skill6 {
+    width: 55%
+}
+
+.skill6 .skill-count6 {
+    right: -85%;
+    top: -24px;
+}
+
+/* SKILL 7 */
+
+.skill7 {
+    width: 75%
+}
+
+.skill7 .skill-count7 {
+    right: -85%;
+    top: -24px;
+}
+
+th {
+    background-color: rgb(172, 167, 167);
+}
+
+td {
+    background-color: rgb(223, 217, 217);
+}
+
+.edu {
+    padding: 1%;
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+
+.projects {
+    padding: 1%;
+    background-image: url("http://markinternational.info/data/out/617/224359511-plain-background-images.jpg")
+}
+
+.achievements {
+    font-family: Verdana;
+    font-size: 100%;
+    padding: 1%;
+    background-image: url("https://atgbcentral.com/data/out/20/4060138-plain-background-images.jpg")
+}
+
+#myTable {
+    display: none;
+}
+
+.icon-bar a {
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+}
+
+.fa:before {
+    font-size: 200%;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.github {
+    background: #000000;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#socialIcon {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .flex-page {
+        display: flex;
+    }
+    .side-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 75%;
+    }
+    .side-nav>img {
+        border-radius: 50%;
+        height: 29%;
+        width: 100%;
+    }
+    .container {
+        position: absolute;
+        left: 25%;
+        right: 0%;
+    }
+    .socialicons {
+        position: fixed;
+        top: 0;
+        right: -3%;
+        left: 65%;
+        height: auto;
+    }
+    .icon-bar {
+        height: 100vh;
+    }
+    .icon-bar a {
+        opacity: 0.7;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 8%;
+        margin: 8%;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 0%;
+        position: relative;
+        right: -68%;
+    }
+    .icon-bar a:hover {
+        right: 0;
+        opacity: 1;
+    }
+    #socialIcon {
+        display: block;
+        font-size: 140%;
+    }
+    .icon-bar strong {
+        margin: auto;
+    }
+    .skillset {
+        height: 100vh;
+    }
+    .edu {
+        height: 100vh;
+        background-image: url("images/film_joker2.jpg");
+    }
+    .projects {
+        height: 100vh;
+    }
+    #about {
+        height: 100vh;
+    }
+    th {
+        background-color: #5e9386;
+    }
+    td {
+        background-color: #4faa97;
+    }
+}
